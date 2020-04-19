@@ -1,6 +1,6 @@
 # RcosweViewTool
 
-Various view specific methods for applications I use.
+> Various view specific methods for applications I use.
 
 ## Installation
 
@@ -19,9 +19,9 @@ Or install it yourself as:
     $ gem install rcoswe_view_tool
 
 ## Usage
-
-TODO: Write usage instructions here
-
+```ruby
+@copyright = RcosweViewTool::Renderer.copyright 'Richard Cohen', 'All rights reserved'
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
